@@ -1,0 +1,104 @@
+body{margin: 0;padding: 0;background-color: #4d4d4c}
+.main{
+    margin: auto;
+    width: 1400px;
+    height: 100%;
+}
+.leftColumn{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.leftColumn div{
+    margin-top: 20px;
+}
+
+.userDiv{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.articleDiv{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+.issueArticleDiv{
+    text-align: center;
+    padding-top: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+.userBtn{
+    outline: none;
+    border: none;
+    margin-top: 3px;
+    background-color: rgba(0,0,0,0);
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 华文楷体;
+}
+.articleBtn{
+    outline: none;
+    border: none;
+    margin-top: 3px;
+    background-color: rgba(0,0,0,0);
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 华文楷体;
+}
+.issueArticleBtn{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 华文楷体;
+}
+
+
+
+.userRedact{
+    float: right;
+    width: 1150px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.articleRedact{
+    float: right;
+    width: 1150px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+    display: none;
+}
+
+.startUser{
+    float: left;
+}
+
+.startUser>ui>li{
+    margin-top: 40px;
+    margin-left: 100px;
+    list-style: none;
+    color: white;
+}
+.endUser{
+    float: right;
+}
+.endUser>form>ui>li{
+    margin-top: 40px;
+    margin-right: 200px;
+    list-style: none;
+    color: white;
+}
+.QQ{
+    margin-left: 6px;
+}
+
+.updateBtn{
+    margin-top:50px;
+    margin-left: 90px;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--忽略大小写-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--扫描包-->
+    <typeAliases>
+        <package name="YF.pojo"/>
+    </typeAliases>
+
+
+
+    <!--注册-->
+    <mappers>
+        <mapper class="YF.mapper.UserMapper"/>
+    </mappers>
+    
+</configuration>

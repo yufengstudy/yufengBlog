@@ -1,0 +1,7 @@
+*.iml
+*.md
+.idea/
+out/
+target/
+src/test/
+web/static/lib/

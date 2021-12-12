@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="YF.mapper.BlogsMapper">
+
+    <insert id="addBlog" parameterType="blogs">
+        insert into blogs
+        (blog_id,id,title,synopsis,article)
+        values(#{blogID},#{id},#{title},#{synopsis},#{article})
+    </insert>
+
+</mapper>

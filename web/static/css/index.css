@@ -1,0 +1,214 @@
+body{margin: 0;padding: 0;}
+
+.backgroundPage{
+    margin-top: -8px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.main{
+    margin:0px auto;
+    width: 1200px;
+    height: 1800px;
+}
+
+.head{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    padding-top: 32px;
+    width: 1200px;
+    height: 48px;
+    background: deepskyblue;
+}
+.logo{
+    float: left;
+    margin-left: 48px;
+}
+
+.logo span{
+    color: white;
+    font-family: "Berlin Sans FB";
+    font-size: 24px;
+}
+.search{
+    float: right;
+    margin-right: 500px;
+    width: 400px;
+    height: 24px;
+}
+.searchText{
+    float: left;
+    width: 250px;
+    margin-left: 10px;
+    border:rgba(0,0,0,0) solid 2px;
+    border-radius: 11px 0px 0px 11px;
+}
+.searchBtn{
+    float: right;
+    margin-right: 100px;
+}
+.Text{
+    height: 24px;
+    width: 220px;
+    margin-left: 20px;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    color: white;
+}
+.Btn{
+    height: 24px;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+}
+.headHr{
+    width: 1200px;
+    border:white solid 1px;
+}
+/*左边*/
+.leftColumn{
+    float: left;
+    position: fixed;
+    z-index: 10;
+    width: 250px;
+    height: 620px;
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0);
+}
+.userHead{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.3);
+}
+.headImage{
+    margin: 65px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+.navigation{
+    margin-top: 10px;
+    height: 350px;
+    background-color: rgba(0,0,0,0.3);
+}
+.list{
+    text-align: center;
+    width: 250px;
+    height: 24px;
+    padding-top:25px ;
+    background-color: rgba(0,0,0,0);
+}
+
+.list a ,.list input ,.list input ,.list input ,.list input {
+    outline: none;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 新宋体;
+}
+
+
+
+
+/*中间*/
+.middleColumn{
+    float: left;
+    margin-top: 80px;
+    margin-left: 270px;
+    width: 650px;
+    height: 1708px;
+    background-color: rgba(0,0,0,0);
+}
+/*博客*/
+.item{
+    width: 600px;
+    height: 190px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.headline{
+    font-family: 新宋体;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.synopsis{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 黑体;
+    color: white;
+}
+.item span{
+    font-family: 华文细黑;
+    font-size: 10px;
+    padding-left: 20px;
+}
+.item hr{
+    color: rgba(0,0,0,3);
+}
+
+/*页码*/
+.changePage{
+    width: 600px;
+    height: 50px;
+    margin-top: 46px;
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 10px;
+    margin-left: 25px;
+}
+.changePage a,.changePage input{
+    color: white;
+    margin-top: 10px;
+}
+
+.upPage{
+    margin-left: 195px;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+}
+.downPage{
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+}
+.thisPage{
+    width: 23px;
+    outline: none;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+
+
+
+/*右侧*/
+.rightColumn{
+    float: right;
+    margin-top: 80px;
+    width: 250px;
+    height: 1710px;
+}
+.message{
+    margin-top: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+.message span{
+    color: white;
+    font-family: 华文楷体;
+    margin-left: 20px;
+}

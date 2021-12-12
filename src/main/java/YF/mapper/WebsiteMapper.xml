@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="YF.mapper.WebsiteMapper">
+
+    <select id="queryWebsite" resultType="website">
+        select * from website
+    </select>
+    
+    <select id="queryBlogs" parameterType="map" resultType="blogs">
+        select * from blogs limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="queryBlogsCount" resultType="int">
+        select count(*) from blogs
+    </select>
+
+</mapper>
